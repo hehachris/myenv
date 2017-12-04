@@ -2,7 +2,7 @@
 #!/usr/bin/env bash
 
 GENERAL_CASKS="firefox franz google-chrome skype"
-DEV_CASKS="github-desktop java phpstorm pycharm sublime-text visual-studio-code"
+DEV_CASKS="github java phpstorm pycharm sublime-text visual-studio-code"
 
 MY_CASKS="android-file-transfer bartender cloudapp evernote itsycal qblocker royal-tsx scroll-reverser spectacle"
 
