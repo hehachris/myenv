@@ -25,9 +25,7 @@ echo "Installing Homebrew..."
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Installing Cask..."
-brew install caskroom/cask/brew-cask
-brew tap homebrew/versions
-brew tap caskroom/versions
+brew tap caskroom/cask
 
 $(ask "general software ($GENERAL_CASKS)") \
     && ln -s ~/Applications/Firefox.app /Applications/Firefox.app \
