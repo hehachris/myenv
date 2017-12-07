@@ -28,7 +28,6 @@ echo "Installing Cask..."
 brew tap caskroom/cask
 
 $(ask "general software ($GENERAL_CASKS)") \
-    && ln -s ~/Applications/Firefox.app /Applications/Firefox.app \
     && brew cask install $GENERAL_CASKS
 
 $(ask "dev tools ($DEV_CASKS)") \
