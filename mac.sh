@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 GENERAL_CASKS="firefox franz google-chrome skype"
