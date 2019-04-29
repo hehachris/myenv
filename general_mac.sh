@@ -13,3 +13,7 @@ brew install mas
 
 echo "Installing Casks..."
 brew cask install $CASKS
+
+mas signin chris@knetgb.com
+mas install \
+    982710545 # Forecast Bar
