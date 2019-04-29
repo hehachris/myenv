@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CASKS="franz google-chrome "
+CASKS="bartender franz google-chrome itsycal qblocker scroll-reverser spectacle spotify visual-studio-code"
 
 echo "Installing Homebrew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
