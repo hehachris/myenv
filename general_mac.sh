@@ -8,5 +8,8 @@ echo "Installing Homebrew..."
 # echo "Installing Homebrew Cask..."
 # brew tap caskroom/cask
 
+echo "Installing Mac App Store cli..."
+brew install mas
+
 echo "Installing Casks..."
 brew cask install $CASKS
