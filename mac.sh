@@ -3,7 +3,7 @@
 GENERAL_CASKS="firefox franz google-chrome skype"
 DEV_CASKS="github java phpstorm pycharm postman sublime-text visual-studio-code"
 
-MY_CASKS="android-file-transfer authy bartender cloudapp evernote itsycal qblocker royal-tsx scroll-reverser spectacle spotify"
+MY_CASKS="android-file-transfer authy bartender bitbar cloudapp evernote itsycal qblocker royal-tsx scroll-reverser spectacle spotify"
 
 NORMAL=$(tput sgr0)
 GREEN=$(tput setaf 2; tput bold)
