@@ -21,16 +21,16 @@ ask() {
 }
 
 echo "Installing Homebrew..."
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo "Installing Cask..."
-brew tap caskroom/cask
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/chrislam/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 $(ask "general software ($GENERAL_CASKS)") \
     && brew cask install $GENERAL_CASKS
 
 $(ask "dev tools ($DEV_CASKS)") \
     && brew cask install $DEV_CASKS
-    
+
 $(ask "my casks colletion ($MY_CASKS)") \
     && brew cask install $MY_CASKS
