@@ -26,6 +26,9 @@ echo "Installing Homebrew..."
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/chrislam/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+echo "Installing Mac App Store cli..."
+brew install mas
+
 $(ask "general software ($GENERAL_CASKS)") \
     && brew install --cask $GENERAL_CASKS
 
