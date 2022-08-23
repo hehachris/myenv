@@ -9,6 +9,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 echo "Installing Mac App Store cli..."
 brew install mas
 
+echo "Installing apps from Mac App Store..."
+mas install \
+  965442961 # Screenie
+
 echo "Installing general Casks..."
 brew install --cask \
     authy \
