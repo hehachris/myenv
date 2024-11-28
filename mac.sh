@@ -33,4 +33,5 @@ brew install --cask \
     phpstorm \
     postman \
     pycharm \
+    tabtab \
     visual-studio-code
