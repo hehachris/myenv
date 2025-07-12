@@ -15,16 +15,14 @@ mas install \
 
 echo "Installing general Casks..."
 brew install --cask \
-    authy \
     evernote \
-    firefox \
     google-chrome \
     itsycal \
     jordanbaird-ice \
     qblocker \
+    rectangle \
     scroll-reverser \
-    Slack \
-    spectacle \
+    slack \
     spotify
 
 echo "Installing dev Casks..."
