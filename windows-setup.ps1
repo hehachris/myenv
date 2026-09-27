@@ -6,16 +6,13 @@ $packages = @(
     '7zip',
     'adobereader',
     'fscapture',
-    'firefox',
     'git',
     'googlechrome',
     'googledrive',
     'phpstorm',
-    'lastpass',
     'spotify',
     'steam',
-    'utorrent',
-    'visualstudiocode'
+    'vscode'
 )
 
 function Add-Path() {
